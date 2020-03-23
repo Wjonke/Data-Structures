@@ -13,7 +13,7 @@ class Queue:
         # Why is our DLL a good choice to store our elements?
             # Because a DLL can very efficiently add and remove things without shifting.
             #its worse at access but we dont really need to access anything specifically or sort it
-            # Tail is the bqack of the queue and head is the front
+            # Tail is the back of the queue and head is the front of the line
 
     def enqueue(self, value): #insert, add to back of queue
         self.storage.add_to_tail(value)
